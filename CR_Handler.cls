@@ -6,7 +6,7 @@ public class CR_Handler {
          for(Contact_Relationship__c ConR :NewUpdateList)
         {
            contactId.add(conr.OwnerId);
-        
+           system.debug('hello');
         }
         map<id ,user> newMap = new map<id ,user>([select Id, name  from user where Id = : contactId]);
         for(Contact_Relationship__c ConR :NewUpdateList)
