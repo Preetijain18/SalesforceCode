@@ -15,7 +15,7 @@ public class CR_Handler {
            
              
                 conr.Name = newmap?.get(conR.ownerId).Name;
-             system.debug(newmap.get(conR.ownerId).Name);
+            // system.debug(newmap.get(conR.ownerId).Name);
            
         }
     }
